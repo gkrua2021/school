@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/bt"
+                android:id="@+id/bt9"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="학교 위치" />
+
+            <Button
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/btt"
+                android:id="@+id/bt10"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="학교 시설" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/bt11"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/bttt"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="산업기능요원제도" />
+
+            <Button
+                android:id="@+id/bt12"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/bttttt"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="선취업 후진학" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageButton
+                android:layout_gravity="center"
+                android:id="@+id/bt5"
+                android:layout_weight="1"
+                android:background="@drawable/mad"
+                android:layout_width="95dp"
+                android:layout_height="95dp"/>
+
+
+            <ImageButton
+                android:layout_gravity="center"
+                android:id="@+id/bt7"
+                android:background="@drawable/tt"
+                android:layout_weight="1"
+                android:layout_width="95dp"
+                android:layout_height="95dp"/>
+            <ImageButton
+                android:layout_gravity="center"
+                android:id="@+id/bt6"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_weight="1"
+                android:background="@drawable/you" />
+
+
+            <Button
+                android:background="@drawable/cb"
+                android:id="@+id/bt8"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="95dp"
+                android:layout_height="95dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ImageButton
+                android:background="@drawable/net"
+                android:id="@+id/bt1"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ImageButton
+                android:background="@drawable/qh"
+                android:id="@+id/bt2"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ImageButton
+                android:background="@drawable/tmak"
+                android:id="@+id/bt3"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ImageButton
+                android:background="@drawable/vhf"
+                android:id="@+id/bt4"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@drawable/xp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="제작자: 3-4 경우현, 정현우, 조하겸 "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:background="#008577"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
